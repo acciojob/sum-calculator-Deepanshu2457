@@ -11,7 +11,7 @@ const App = () => {
   },[curr])
   return (
     <div>
-     <div>
+     
       <h1>Sum calculator</h1>
 
       <input type="number" onChange={(e)=>{
@@ -20,7 +20,7 @@ const App = () => {
       <p>Sum : {sum}</p>
 
      </div>
-    </div>
+  
   )
 }
 
